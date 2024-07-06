@@ -63,7 +63,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="block">
       <Description
         title="Sip Happens Café"
         text="Please leave your feedback about our service by selecting one of the
@@ -85,7 +85,7 @@ function App() {
       ) : (
         <Notification text="No feedback yet" />
       )}
-    </>
+    </div>
   );
 }
 
